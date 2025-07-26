@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>იუბილარისთვის❤️</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+
+        <div id="content">
+            <div class="step active" id="step1">
+                <div class="emoji heart-beat">❤️</div>
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white-override">ჰაი, ნიკა</h1>
+                <p class="text-xl text-white mb-8">დღევანდელ განსაკუთრებულსა და გამორჩეულ დღეს რაღაც მოგიმზადე, როგორც გითხარი ;დ</p>
+                <button class="btn btn-dark" id="start-btn">დავაი, შევუბეროთ</button>
+            </div>
+
+            <div class="step" id="step2">
+                <div class="emoji">🎉</div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white-override">გილოცავ დაბადების დღეს!</h2>
+                <p class="text-lg text-white mb-6">
+                    მინდა, მრავალს დაესწრო ჯანმრთელი და ბედნიერი. დაე, ამ შენს ახალ საფეხურზე გეპოვოს
+                    ბედნიერება და ვიტამინები. გისურვებ გაქცეულ ძილის დაბრუნებას, ბევრ ფულსა და D ვიტამინს. ეცადე,
+                    ყოველთვის გახსოვდეს, სად დადე გასაღები, საფულე და ტელეფონი.
+                </p>
+                <button class="btn btn-dark" id="next-btn-2">რა გხდის განსაკუთრებულს?</button>
+            </div>
+
+            <div class="step" id="step3">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8 text-white-override">აი, რატომ ხარ შენ ცოტა კარგი</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                    <div class="reason-card">
+                        <div class="emoji">🎶</div>
+                        <h3 class="text-xl font-bold text-white">ლაპარაკის სტილი</h3>
+                    </div>
+                    <div class="reason-card">
+                        <div class="emoji">😊</div>
+                        <h3 class="text-xl font-bold text-white">მწარე და უნიკალური იუმორი</h3>
+                    </div>
+                    <div class="reason-card">
+                        <div class="emoji">🌟</div>
+                        <h3 class="text-xl font-bold text-white">შრეკი ხარ</h3>
+                    </div>
+                </div>
+                <button class="btn btn-dark" id="next-btn-3">გამჭყლიტე შემდეგი სლაიდისთვის</button>
+            </div>
+
+            <div class="step" id="step4">
+                <div class="emoji">👾</div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white-override">გახსოვდეს, რომ...</h2>
+                <p class="text-lg text-white mb-6">
+                    კარგი და ცუდი მომენტები სულ გექნება, მთავარია ხელი არ ჩაიქნიო შენს მიზნებზე. როდესაც საუბარი
+                    დაგჭირდება, შენ გვერდით მიგულე.
+                </p>
+                <button class="btn btn-dark" id="next-btn-4">ერთი ბოლო რამ</button>
+            </div>
+
+            <div class="step" id="step5">
+                <div class="emoji">🎂</div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white-override">კიდევ ერთხელ გილოცავ დაბადების დღეს!</h2>
+                <p class="text-lg text-white mb-8">წარმატებას, სიხარულსა და სიმშვიდეს გისურვებ!</p>
+                <button class="btn btn-dark" id="confetti-btn">დააჭირე აღსანიშნავად!!!</button>
+                <p class="mt-8 text-gray-300">დამზადებულია ❤️ მხოლოდ შენთვის</p>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
